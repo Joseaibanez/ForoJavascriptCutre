@@ -1,0 +1,81 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>El Foro</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!-- Add your site or application content here -->
+  <header>
+    <img id="headerLeft" src="https://media0.giphy.com/media/l1J9BNjq8Flf4XM40/giphy.gif?cid=790b7611703c4f46e73d966fa538f3a766630f939c189e36&rid=giphy.gif&ct=g">
+    <h1 id="titulo">Foro Javascript</h1>
+    <img id="headerRight" src="https://media0.giphy.com/media/l1J9BNjq8Flf4XM40/giphy.gif?cid=790b7611703c4f46e73d966fa538f3a766630f939c189e36&rid=giphy.gif&ct=g">
+  </header>
+  <div id="page">
+    <div id="publicidad">
+      <h1 id="publiTitle">PUBLICIDAD</h1>
+      <div id="anuncio1">
+        <a href="https://www.lingscars.com/"><img id="imgLing" src="https://consentidxs.files.wordpress.com/2014/11/1908qmmneed04jpg.jpg"></a>
+      </div>
+      <div id="anuncio2">
+        <a href="https://www.esgglobalservices.com/website-development-design/?gclid=CjwKCAjwwsmLBhACEiwANq-tXID5vYTGL5dhrA9gJ0gnoz6QXuQzROZ-Aw-nfCLlmE56Tu7QSqbZJBoCGJkQAvD_BwE"><img src=""></a>
+      </div>
+    </div>
+    <div id="userMensaje">
+      <p>Usuario: <input type="text" name="user" id="user"></p>
+      <p>Mensaje: <input type="text" name="mensaje" id="mensaje"></p>
+      <button onclick="almacenar(document.getElementById('user').value, document.getElementById('mensaje').value),escribir()">Post</button>
+      <div id="gifUserMensaje">
+        <img id="howard" src="https://c.tenor.com/GsK7TIEcKJUAAAAi/howard-the-alien-dance.gif"/>
+      </div>
+    </div>
+    <div id="muro">
+      <h3 id="cabeceraMensajes">Mensajes</h3>
+    </div>
+  </div>
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <footer>
+    <h2 id="footerText">¡ESTO ES EL FOOTER CHAVALEEEES!</h2>
+    <div id="datos">
+      <table id="tabla">
+        <tr>
+          <th>
+            <a href="https://es-es.facebook.com/"><img id="facebookIcon" src="https://www.pinclipart.com/picdir/middle/2-21918_download-transparent-background-facebook-logo-clipart-facebook-logo.png"></a>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <a href="https://twitter.com/?lang=es"><img id="twitterIcon" src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png"></a>
+          </th>
+        </tr>
+        <tr>
+          <th>
+            <a href="https://www.youtube.com/"><img id="youtubeIcon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpkhKS_l9E3SObVHKjVCAoy5okKM0GkNAPXg&usqp=CAU"></a>
+          </th>
+        </tr>
+      </table>
+      <h3 id="otrosEnlaces">Otros enlaces</h3>
+    </div>
+  </footer>
+</body>
+</html>
